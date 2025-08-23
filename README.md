@@ -34,6 +34,10 @@ This project sets up a highly available AWS infrastructure using Terraform, feat
 ├── variables.tf            # Input variable definitions
 ├── outputs.tf             # Output values
 ├── terraform.tfvars       # Variable values (not committed to version control)
+├── data.tf                # Data sources (AMI, availability zones)
+├── variables.tf            # Input variable definitions
+├── outputs.tf             # Output values
+├── terraform.tfvars       # Variable values (not committed to GitHub)
 ├── networking.tf          # VPC, subnets, and networking components
 ├── alb.tf                 # Application Load Balancer configuration
 ├── autoscaling.tf         # Auto Scaling Group and Launch Template
@@ -41,6 +45,7 @@ This project sets up a highly available AWS infrastructure using Terraform, feat
 ├── aurora.tf              # Aurora database cluster
 ├── security_groups.tf     # Security group definitions
 └── data.tf                # Data sources (AMI, availability zones)
+└── security_groups.tf     # Security group definitions
 ```
 ---
 
