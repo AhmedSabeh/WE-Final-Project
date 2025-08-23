@@ -39,7 +39,8 @@ This project sets up a highly available AWS infrastructure using Terraform, feat
 ├── autoscaling.tf         # Auto Scaling Group and Launch Template
 ├── efs.tf                 # EFS file system and mount targets
 ├── aurora.tf              # Aurora database cluster
-└── security_groups.tf     # Security group definitions
+├── security_groups.tf     # Security group definitions
+└── .gitignore
 ```
 ---
 
