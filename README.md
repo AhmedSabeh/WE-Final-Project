@@ -9,7 +9,7 @@ This project sets up a highly available AWS infrastructure using Terraform, feat
 ![IMG-20250822-WA0004](https://github.com/user-attachments/assets/1823971c-009e-4281-87f7-680ecf23facf)
 
 
-The infrastructure includes:
+### The infrastructure includes:
 
 -  VPC with public and private subnets across two availability zones
 
@@ -27,7 +27,7 @@ The infrastructure includes:
 
 ---
 
-## File Structure
+## File Structure:
 ```
 .
 ├── main.tf                 # Core Terraform configuration
@@ -44,7 +44,7 @@ The infrastructure includes:
 ```
 ---
 
-## Prerequisites
+## Prerequisites:
 
 -  Terraform 1.0+ installed
 
@@ -54,7 +54,7 @@ The infrastructure includes:
 
 ---
 
-## Usage
+## Usage:
 -  Clone this repository:
 ```
 git clone https://github.com/AhmedSabeh/WE-Final-Project
@@ -87,6 +87,7 @@ db_password = "your_secure_password"
 -  Note: Never commit the terraform.tfvars file to version control as it may contain sensitive information.
 
 ## Outputs
+
 -  After successful deployment, Terraform will output:
 
 -  ALB DNS name (for accessing the application)
