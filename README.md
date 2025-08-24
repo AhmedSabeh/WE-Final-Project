@@ -30,13 +30,9 @@ This project sets up a highly available AWS infrastructure using Terraform, feat
 ## File Structure:
 ```
 .
-├── main.tf                 # Core Terraform configuration
 ├── variables.tf            # Input variable definitions
 ├── outputs.tf             # Output values
-├── terraform.tfvars       # Variable values (not committed to version control)
 ├── data.tf                # Data sources (AMI, availability zones)
-├── variables.tf            # Input variable definitions
-├── outputs.tf             # Output values
 ├── terraform.tfvars       # Variable values (not committed to GitHub)
 ├── networking.tf          # VPC, subnets, and networking components
 ├── alb.tf                 # Application Load Balancer configuration
@@ -44,8 +40,7 @@ This project sets up a highly available AWS infrastructure using Terraform, feat
 ├── efs.tf                 # EFS file system and mount targets
 ├── aurora.tf              # Aurora database cluster
 ├── security_groups.tf     # Security group definitions
-└── data.tf                # Data sources (AMI, availability zones)
-└── security_groups.tf     # Security group definitions
+└── .gitignore
 ```
 ---
 
