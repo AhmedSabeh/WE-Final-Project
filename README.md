@@ -94,6 +94,8 @@ db_password = "your_secure_password"
 
 -  Database endpoint (for database connections)
 
+<img width="888" height="120" alt="Screenshot (264)" src="https://github.com/user-attachments/assets/870bdd4f-92b7-4ad2-8c4a-6d4edc8d83d6" />
+
 ---
 
 ## Cleaning Up
